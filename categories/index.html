@@ -163,6 +163,17 @@
     </h1>
   
 
+        <!--显示阅读次数-->
+        
+        <br />
+        <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+          <span class="icon-sort"></span>
+          <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+            阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+          </span>
+        </a>
+        
+        <!--显示阅读次数完毕-->
         
         <a href="/categories/index.html" class="archive-article-date">
   	<time datetime="2020-05-29T11:21:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-29</time>
@@ -196,6 +207,7 @@
           </div>
           </a>
         </div>
+      
       
     </div>
     <div class="article-info article-info-index">
@@ -259,7 +271,10 @@
       
       <div class="clearfix"></div>
     </div>
+
+
   </div>
+
 </article>
 
   
@@ -291,6 +306,47 @@
   
 
   
+
+
+
+
+
+
+<section id="comments" class="comments">
+  <style>
+    .comments {
+      margin: 30px;
+      padding: 10px;
+      background: #fff
+    }
+
+    @media screen and (max-width:800px) {
+      .comments {
+        margin: auto;
+        padding: 10px;
+        background: #fff
+      }
+    }
+  </style>
+  <div class="valine_comment"></div>
+<!--载入js，在</body>之前插入即可-->
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: '.valine_comment',
+    app_id: 'MDk3zr6DEjgg4QrsD4HOLju6-gzGzoHsz',
+    app_key: 'Wg9m4ffaVf5k53uvW1dOpumm',
+    placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+    notify: 'true',
+    verify: 'true',
+  });
+</script>
+
+</section>
+
 
 
 
